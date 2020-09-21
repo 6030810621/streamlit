@@ -28,7 +28,7 @@ def load_data(nrows):
     data.rename(lowercase, axis="columns", inplace=True)
     data[DATE_TIME] = pd.to_datetime(data[DATE_TIME])
     return data
-data = load_data(100000)
+data = load_data(60000)
 
 #slidebar and data
 hour = st.slider("Hour to look at", 0, 23)
