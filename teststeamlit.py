@@ -11,7 +11,7 @@ st.title('Uber by streamlit')
 date_selected = st.sidebar.selectbox('2019/01/',['01','02','03','04','05'])
 
 #import data
-DATE_TIME = "timestart"
+DATE_TIME = 'timestart'
 if date_selected =='01':
     DATA_URL = ("https://github.com/6030810621/streamlit/blob/master/20190101.csv")
 elif date_selected =='02':
