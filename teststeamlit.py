@@ -43,7 +43,7 @@ lon = 100.523186
 lat = 13.736717
 station_map = fo.Map(
 	location = [lat, lon], 
-	zoom_start = 10)
+	zoom_start = 12)
 
 latitudes = list(data.latstartl)
 longitudes = list(data.lonstartl)
