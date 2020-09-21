@@ -13,15 +13,15 @@ date_selected = st.sidebar.selectbox('2019/01/',['01','02','03','04','05'])
 #import data
 DATE_TIME = 'timestart'
 if date_selected =='01':
-    DATA_URL = ("https://github.com/6030810621/streamlit/blob/master/20190101.csv")
+    DATA_URL = ("https://raw.githubusercontent.com/6030810621/streamlit/master/20190101.csv")
 elif date_selected =='02':
-    DATA_URL = ("https://github.com/6030810621/streamlit/blob/master/20190102.csv")
+    DATA_URL = ("https://raw.githubusercontent.com/6030810621/streamlit/master/20190102.csv")
 elif date_selected =='03':
-    DATA_URL = ("https://github.com/6030810621/streamlit/blob/master/20190103.csv")
+    DATA_URL = ("https://raw.githubusercontent.com/6030810621/streamlit/master/20190103.csv")
 elif date_selected =='04':
-    DATA_URL = ("https://github.com/6030810621/streamlit/blob/master/20190104.csv")
+    DATA_URL = ("https://raw.githubusercontent.com/6030810621/streamlit/master/20190104.csv")
 elif date_selected =='05':
-    DATA_URL = ("https://github.com/6030810621/streamlit/blob/master/20190105.csv")
+    DATA_URL = ("https://raw.githubusercontent.com/6030810621/streamlit/master/20190105.csv")
 def load_data(nrows):
     data = pd.read_csv(DATA_URL, nrows=nrows, error_bad_lines=False)
     lowercase = lambda x: str(x).lower()
