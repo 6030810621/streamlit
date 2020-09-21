@@ -7,8 +7,8 @@ import geopandas as gp
 import altair as alt
 import pydeck as pdk
 #define name
-st.title('Uber by streamlit')
-date_selected = st.sidebar.selectbox('2019/01/',['01','02','03','04','05'])
+st.title('Uber pick up by streamlit')
+date_selected = st.sidebar.selectbox('Choose date 2019/01/',['01','02','03','04','05'])
 
 #import data
 DATE_TIME = 'timestart'
