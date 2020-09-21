@@ -47,6 +47,7 @@ station_map = fo.Map(
 
 latitudes = list(data.latstartl)
 longitudes = list(data.lonstartl)
+time = list(data.timestart)
 labels = list(data.n)
 
 #pop up
